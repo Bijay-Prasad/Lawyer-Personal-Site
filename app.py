@@ -25,7 +25,7 @@ GOOGLE_DISCOVERY_URL = (
     "https://accounts.google.com/.well-known/openid-configuration"
 )
 
-os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
+
 
 
 # Flask app setup
