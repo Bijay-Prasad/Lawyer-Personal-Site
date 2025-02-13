@@ -19,8 +19,8 @@ from dotenv import load_dotenv
 load_dotenv()
 # Configuration
 
-GOOGLE_CLIENT_ID = os.getenv('CLIENT_ID')
-GOOGLE_CLIENT_SECRET = os.getenv('CLIENT_SECRET')
+GOOGLE_CLIENT_ID = '155242781760-8fct15otl4cepmmje6adsplkgssku21u.apps.googleusercontent.com'
+GOOGLE_CLIENT_SECRET = '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'
 GOOGLE_DISCOVERY_URL = (
     "https://accounts.google.com/.well-known/openid-configuration"
 )
